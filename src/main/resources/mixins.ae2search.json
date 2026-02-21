@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.he1se1.ae2search.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ae2search.refmap.json",
+  "mixins": [],
+  "client": [
+    "MixinNameSearchPredicate",
+    "MixinItemIdSearchPredicate"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

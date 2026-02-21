@@ -1,0 +1,2 @@
+# AE2SearchPatch
+GregtechOdyssey製AE2のターミナル等での検索時の挙動を改変するmod
