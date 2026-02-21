@@ -50,3 +50,10 @@ description='''${mod_description}'''
     versionRange="[0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="gtocore"     # 親ModであるGTOCoreを指定
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"   # GTOCore（とその中のAE2）が読み込まれた後に実行
+    side="BOTH"
